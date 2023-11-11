@@ -14,8 +14,8 @@ import "fmt"
 func main() {
 
 	for i := 1; i <= 50; i++ {
-		divisibleByThree := i % 3 == 0
-		divisibleByFive := i % 5 == 0
+		divisibleByThree := i%3 == 0
+		divisibleByFive := i%5 == 0
 
 		if divisibleByFive && divisibleByThree {
 			//  - Print "Fizz" if the integer is divisible by 3

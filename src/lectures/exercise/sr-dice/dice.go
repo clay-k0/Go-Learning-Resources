@@ -50,16 +50,16 @@ func main() {
 			fmt.Println("Roll #", r, "| Die #", d, ":", rolled)
 		}
 
-			fmt.Println("Total Rolled:", sum)
-			switch sum := sum; {
-			case sum == 2 && dice == 2:
-				fmt.Println("Snake Eyes")
-			case sum == 7:
-				fmt.Println("Lucky 7")
-			case sum % 2 == 0:
-				fmt.Println("Even")
-			case sum % 2 == 1:
-				fmt.Println("Odd")
-			}
+		fmt.Println("Total Rolled:", sum)
+		switch sum := sum; {
+		case sum == 2 && dice == 2:
+			fmt.Println("Snake Eyes")
+		case sum == 7:
+			fmt.Println("Lucky 7")
+		case sum%2 == 0:
+			fmt.Println("Even")
+		case sum%2 == 1:
+			fmt.Println("Odd")
 		}
+	}
 }

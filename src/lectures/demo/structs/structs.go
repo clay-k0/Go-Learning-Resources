@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 type Passenger struct {
-	Name 					string
-	TicketNumber 	int
-	isBoarded 		bool
+	Name         string
+	TicketNumber int
+	isBoarded    bool
 }
 
 type Bus struct {

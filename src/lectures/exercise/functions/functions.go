@@ -9,30 +9,30 @@ import "fmt"
 
 //--Requirements:
 
-//* Write a function that accepts a person's name as a function
-//* parameter and displays a greeting to that person.
+// * Write a function that accepts a person's name as a function
+// * parameter and displays a greeting to that person.
 func greetPerson(name string) {
-	fmt.Println("Hello,",name)
+	fmt.Println("Hello,", name)
 }
 
-//* Write a function that returns any message, and call it from within
-//* fmt.Println()
+// * Write a function that returns any message, and call it from within
+// * fmt.Println()
 func randomQuote() string {
 	return "Expect the best, but be prepared for the worst."
 }
 
-//* Write a function to add 3 numbers together, supplied as arguments, and
-//* return the answer
+// * Write a function to add 3 numbers together, supplied as arguments, and
+// * return the answer
 func addThree(x, y, z int) int {
 	return x + y + z
 }
 
-//* Write a function that returns any number
+// * Write a function that returns any number
 func randomNum() int {
 	return 69
 }
 
-//* Write a function that returns any two numbers
+// * Write a function that returns any two numbers
 func twoRandomNums() (int, int) {
 	return 2, 3
 }

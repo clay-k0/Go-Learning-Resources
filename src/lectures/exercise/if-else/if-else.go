@@ -49,7 +49,6 @@ func main() {
 	// The day and role. Change these to check your work.
 	today, role := Saturday, Contractor
 
-
 	if role == Admin || role == Manager {
 		//* Access at any time: Admin, Manager
 		accessGranted()
