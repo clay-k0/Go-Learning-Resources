@@ -67,8 +67,8 @@ func printMemberAudits(library *Library) {
 
 func createBook(library *Library, title Title, total int, lended int) {
 	library.books[title] = BookEntry{
-		total:  total,
-		lended: lended,
+		total,
+		lended,
 	}
 }
 
