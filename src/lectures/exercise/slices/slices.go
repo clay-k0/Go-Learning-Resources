@@ -21,6 +21,8 @@ func printParts(slice []Part) {
 		part := slice[i]
 		fmt.Println(">", part)
 	}
+	numParts := len(slice)
+	fmt.Println("\nNumber of Parts:", numParts)
 }
 
 func main() {
